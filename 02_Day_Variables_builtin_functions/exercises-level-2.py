@@ -32,3 +32,17 @@ var_floor_division = num_one//num_two
 
 print(var_total, var_diff, var_product, var_division,
       var_remainder, var_exp, var_floor_division)
+
+# The radius of a circle is 30 meters.
+# Calculate the area of a circle and assign the value to a variable area_of_circle
+# Calculate the circumference of a circle and assign the value to a variable circum_of_circle
+# Take radius as user input and calculate the area.
+
+area_of_circle = 3.14*(30 ^ 2)
+circum_of_circle = 3.14*(30*2)
+print(area_of_circle, circum_of_circle)
+
+radius = input('circle radius: ')
+area_of_circle_inp = 3.14*(radius ^ 2)
+circum_of_circle_inp = 3.14*(radius*2)
+print(area_of_circle_inp, circum_of_circle_inp)
